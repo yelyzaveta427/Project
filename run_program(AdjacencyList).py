@@ -1,4 +1,4 @@
-from algorithm import hasHamiltonianPath
+from algotithm_realization import hasHamiltonianCycle
 from time_estimation import estimate_algorithm_time
 if __name__ == "__main__":
 
@@ -8,7 +8,7 @@ if __name__ == "__main__":
     generated_graph, path_exists, exec_time = estimate_algorithm_time(
         num_vertices=V_TEST,
         density=P_TEST,
-        algorithm=hasHamiltonianPath
+        algorithm=hasHamiltonianCycle
     )
 
     print("Results of testing")

@@ -68,7 +68,7 @@ class MatrixGraph:
             self.remove_edge(vertice_1,vertice_2)
 
     def show(self):
-        print(f"Number of vertices : {self.number_of_vertices}")
-        print(f"Vertices:",*self.vertices,"\n")
+        #print(f"Number of vertices : {self.number_of_vertices}")
+        #print(f"Vertices:",*self.vertices,"\n")
         for row in self.edge_matrix:
             print(*row)
